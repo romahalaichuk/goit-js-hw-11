@@ -5,7 +5,7 @@ axios.defaults.baseURL = 'https://pixabay.com/api/';
 export const getData = async (searchQuery, page = 1) => {
   try {
     const urlSeaParams = new URLSearchParams({
-      key: '40486254-4681fff754f8735bda72aa19c',
+      key: '41161675-f88d2cdd35bb94a414d04c132',
       image_type: 'photo',
       orientation: 'horizontal',
       safesearch: true,
