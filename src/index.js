@@ -96,7 +96,7 @@ async function onClick() {
     const markup = createGallery(hits);
     addMarkup(markup);
     lightbox.refresh();
-    if (page * 50 >= totalHits) {
+    if (page * 40 >= totalHits) {
       loadMoreElement.classList.add('is-hidden');
       Notify.info(`We're sorry, but you've reached the end of search results.`);
     }

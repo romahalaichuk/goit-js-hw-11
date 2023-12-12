@@ -11,7 +11,7 @@ export const getData = async (searchQuery, page = 1) => {
       safesearch: true,
       q: searchQuery,
       page,
-      per_page: 50,
+      per_page: 40,
     });
 
     const response = await axios.get(`?${urlSeaParams}`);
